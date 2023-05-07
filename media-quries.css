@@ -1,0 +1,143 @@
+@media screen and (max-width:991px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .main-nav {
+        overflow: initial;
+
+    }
+
+    
+
+
+    .nav-links {
+        background-color: white;
+        padding-left: 43vw;
+        padding-block: 20px;
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .active{
+        left:0%
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .example-area {
+        gap: 10px;
+    }
+
+    .examples-card {
+        width: 49%;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .primary-btn {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+    #second-big-feature {
+        flex-direction: column;
+    }
+
+    .new-section-heading {
+        flex-direction: column-reverse;
+    }
+
+    .new-section .left-side {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .new-section .right-side {
+        position: relative;
+        left: 21%;
+    }
+
+    .new-section .right-side img {
+        width: 60%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .link-coloum {
+        text-align: center;
+    }
+
+
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width:479px) {
+    :root {
+        ---padding-inline-section: 10px
+    }
+
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+
+    .features-header-text {
+        margin-bottom: 40px;
+    }
+
+    .examples-card {
+        min-width: 100%;
+    }
+
+}
